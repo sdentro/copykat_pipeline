@@ -14,8 +14,10 @@ Rscript copykat_pipeline.R
 Optional parameters for additional plots
 
 ```
-	-g [UMAP coordinates (colnames UMAP_1 and UMAP_2), with further possible annotations of columns named cluster and/or celltype]
-	-l [File with aneuploid/diploid labels per cell with column names cell.names (barcodes) and copykat.pred (diploid or aneuploid)]
+	-g [UMAP coordinates (colnames UMAP_1 and UMAP_2), with further possible annotations 
+		of columns named cluster and/or celltype]
+	-l [File with aneuploid/diploid labels per cell with column names cell.names 
+		(barcodes) and copykat.pred (diploid or aneuploid)]
 ```
 
 ## Dependencies
